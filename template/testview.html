@@ -1,0 +1,20 @@
+
+<html>
+
+<head>
+    <title>load common template</title>
+</head>
+
+<body>
+<h1>{{.data}}</h1>
+<div>
+    <b>Books:</b>
+    <br>
+    {{range .Books}}
+    BookName => {{.Name}}; Size => {{.Size}}
+    <br>
+    {{end}}
+</div>
+
+</body>
+</html>
